@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "email-nodemailer": {
+      "type": "library",
+      "root": "libs/email-nodemailer",
+      "entryFile": "index",
+      "sourceRoot": "libs/email-nodemailer/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/email-nodemailer/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
